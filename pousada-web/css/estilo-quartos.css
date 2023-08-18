@@ -1,0 +1,36 @@
+.banner__quartos {
+  width: 100%;
+  height: 150px;
+  background-image: url("../assets/img-fundo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-acomodacao{
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.img-acomodacao img{
+    width: 300px;
+    height: 200px;
+}
+.lista{
+    width: 1024px;
+    margin: 0 auto;
+}
+.lista h3{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 24px;
+}
+.lista ul{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 700px;
+}

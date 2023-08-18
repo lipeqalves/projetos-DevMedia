@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: none;
+  text-decoration: none;
+  
+  font-family: "Source Sans Pro", sans-serif;
+}
+.topo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #49997c;
+}
+.topo__conteudo {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-topo {
+  color: #fff;
+  font-weight: bold;
+}
+.link-topo span {
+  color: #006ba4;
+}
+.logo {
+  font-size: 22px;
+}
+.links a {
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+.conteiner__banner {
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/img-fundo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__banner-texto {
+  width: 35%;
+  height: 25%;
+  opacity: 0.7;
+  background-color: #0da78d;
+  border: 1px solid #fff;
+  border-radius: 5px;
+
+  font-weight: bold;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.container__banner-texto h1 {
+  font-size: 32px;
+}
+.card__apresentacao {
+  width: 1024px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card__apresentacao {
+  font-weight: normal;
+}
+.card__apresentacao-texto {
+  text-align: center;
+  line-height: 30px;
+}
+
+.conteiner__principal-conteudo {
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.conteiner__principal-conteudo img {
+  width: 300px;
+  height: 200px;
+}
+.conteiner__principal-acomodacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px;
+}
+.conteiner__principal-acomodacao a {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #3e4245;
+}
+.conteiner__principal-acomodacao {
+  border-bottom: 2px solid #467b75;
+}
+.rota__mapa iframe {
+  width: 100%;
+}
+.sobre__conteiner {
+  margin: 0 auto;
+  padding: 10px;
+  width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sobre__conteudo img {
+  width: 120px;
+  height: 150px;
+}
+.sobre__conteudo-texto {
+  width: 300px;
+}
+.sobre__conteudo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.rodape {
+  width: 100%;
+  background-color: #49997c;
+  margin-top: 15px;
+}
+.rodape__contato {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center;
+  width: 1024px;
+  border-bottom: 1px solid #3e4245;
+  height: 80px;
+}
+.rodape__contato .endereco::before {
+  content: url("../assets/icones/endereco.png");
+  margin: 0 25px;
+}
+.rodape__contato .celular::before {
+  content: url("../assets/icones/telefone.png");
+  margin: 0 25px;
+}
+.rodape__contato .reserva::before {
+  content: url("../assets/icones/calendario.png");
+  margin: 0 25px;
+}
+
+.rodape__contato a {
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  height: 80px;
+}
+.rodape__contato p {
+  font-size: 22px;
+  color: #fff;
+}
+.rodape p {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
