@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.secao {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.secao p {
+  margin: 10px auto;
+  text-align: justify;
+  width: 980px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.secao__um {
+  background-color: #afddfb;
+}
+.secao__um .secao__um-img {
+  width: 150px;
+}
+.secao__um .secao__um-paragrafo {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.secao__um-paragrafo a {
+  font-size: 18px;
+  color: #1d1d1d;
+  border-bottom: 2px solid #1d1d1d;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.secao__dois {
+  margin-top: 50px;
+  padding-top: 0;
+}
+.secao .negrito {
+  font-weight: bold;
+}
+.secao__tres h1 {
+  color: #1d1d1d;
+  margin-bottom: 5px;
+}
+.secao__tres h2 {
+  color: #1c81c0;
+}
+
+.secao__tres img {
+  width: 450px;
+}
+.secao__tres-paragrafo span {
+  color: #1d80c1;
+}
+.secao__quatro {
+  background-color: #1d80c1;
+}
+.subtitulo {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 42px;
+}
+.secao .secao__quatro-paragrafo {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 42px;
+  text-align: center;
+  width: 700px;
+}
+.texto-amarelo {
+  color: #fff81f;
+}
+.lista {
+  margin: 40px auto;
+  width: 135px;
+}
+.lista li {
+  color: #ffffff;
+  line-height: 42px;
+  text-align: left;
+  font-size: 22px;
+}
+.secao__cinco h2 {
+  color: #1d80c1;
+  font-size: 28px;
+  line-height: 42px;
+}
+.secao__cinco img {
+  width: 450px;
+}
+.secao__cinco-paragrafo span {
+  color: #1d80c1;
+}
+
+.secao__seis {
+  background-color: #1d80c1;
+}
+.secao__seis p {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.secao__seis-lista {
+  list-style: none;
+  margin: 40px auto;
+  width: 240px;
+}
+.secao__seis-lista li{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.secao__seis-lista li a{
+    background-color: #ffffff;
+    color:#1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
